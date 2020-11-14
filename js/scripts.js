@@ -55,7 +55,7 @@ let renderPage = () => {
 
     const changeInfo = (e) => {
         createInfoBlock(e.target.dataset.id);
-        article.style.backgroundImage = `url(../img/${content[e.target.dataset.id].city.toLowerCase()}.jpg)`
+        article.style.backgroundImage = `url(img/${content[e.target.dataset.id].city.toLowerCase()}.jpg)`
     }
 
     const createInfoBlock = (id) => {
